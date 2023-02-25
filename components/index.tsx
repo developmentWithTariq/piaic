@@ -1,0 +1,12 @@
+
+export { default as Hero} from './hero'
+export { default as PiaicLogo  } from './logo'
+export { default as CourseList } from './courses/list'
+export { default as ProgramNutshell }  from './nutshell'
+export { default as WithLargeQuote } from './Testimonials'
+export { default as Services } from './services'
+export { default as Footer } from './footer'
+export { default as CoreCourses } from './coreCourses'
+export { default as LineWithDot } from './lineWithDot'
+export { default as SpecilizationTrack } from './sTrack'
+export { default as CourseCard } from './courseCard'
