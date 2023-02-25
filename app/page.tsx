@@ -1,14 +1,16 @@
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import { Navbar } from './navbar'
-import Home   from './home';
-const inter = Inter({ subsets: ['latin'] })
+'use client'
+import { WithLargeQuote, ProgramNutshell, Hero, Services } from '@/components';
+import { Courses } from '@/components/courses';
+import { Box } from '@chakra-ui/react'
 
 export default function HomePage() {
   return (
-    <main>
-      <Navbar />
-      <Home />
-    </main>
+    <Box>
+      <Hero />
+      <Courses />
+      <ProgramNutshell />
+      <Services />
+      <WithLargeQuote />
+    </Box>
   )
 }
